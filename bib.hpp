@@ -29,7 +29,7 @@ VectorXf vector(MatrixXf M, int column) {
   double N = v.norm();
   
 
-  v = N*I.col(column) + v ;
+  v = v - N*I.col(column) ;
   return v;
 }
 

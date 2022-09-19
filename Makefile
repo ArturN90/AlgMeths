@@ -12,4 +12,4 @@ clean:
 	rm -f *.o main
 
 main: $(OBJ)
-	$(CXX) $(OBJ) $(LIB1) $(LIB2) -o qr
+	$(CXX) $(OBJ) $(LIB1) $(LIB2) -o qr.o
