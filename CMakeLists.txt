@@ -4,9 +4,9 @@ set(CMAKE_BUILD_TYPE Release)
 
 include_directories(include)
 
-file(GLOB SOURCES "src/*.cpp")
+file(GLOB SOURCES "src/examples/*.cpp")
 
 add_library(algmeths SHARED ${SOURCES})
 
-install(TARGETS algmeths DESTINATION ./)
+install(TARGETS algmeths DESTINATION /usr/lib/)
 
