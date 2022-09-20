@@ -1,9 +1,12 @@
 cmake_minimum_required(VERSION  3.16.3)
 project(directory_test)
+set(CMAKE_BUILD_TYPE Release)
 
 include_directories(include)
 
 file(GLOB SOURCES "src/*.cpp")
 
-add_executable(test ${SOURCES})
+add_library(algmeths SHARED ${SOURCES})
+
+install(TARGETS algmeths DESTINATION ./)
 
