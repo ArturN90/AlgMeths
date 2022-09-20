@@ -1,5 +1,19 @@
 # AlgMeths
-Algebra methods. To develop.  
+Algebra methods. To develop.
+## Build (algmeths.so)   
+1. Create a directiory build
+~~~
+mkdir build && cd build/
+~~~  
+2.  
+~~~
+cmake ..
+~~~ 
+3.  
+~~~
+make
+~~~ 
+
 ## Supported Methods:  
 1. QR Decomposition  
 
