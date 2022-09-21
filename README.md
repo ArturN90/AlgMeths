@@ -25,6 +25,10 @@ g++ -std=c++17 -c mainapp.cpp -o  mainapp.o && g++ -std=c++17 mainapp.o -o test 
 ## Supported Methods:  
 1. QR Decomposition  
 
+## Coming soon:  
+1. Newton Interpolation
+2. Richardson extrapolation in case of  integration
+
 ## Instalation
 #### to update
 ## TODO:
