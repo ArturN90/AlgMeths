@@ -20,7 +20,7 @@ File is in following directory:
 ~~~  
 To compile, link and run use the following commands:  
 ~~~
-g++ -std=c++17 -c mainapp.cpp -o  mainapp.o && g++ -std=c++17 mainapp.o -o test -L ./../../build/ -lalgmeths $$ ./test
+g++ -std=c++17 -c mainapp.cpp -o  mainapp.o && g++ -std=c++17 mainapp.o -o test -L ./../../build/ -lnumeths && ./test
 ~~~
 ## Supported Methods:  
 1. QR Decomposition  
