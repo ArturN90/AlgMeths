@@ -1,5 +1,5 @@
-# AlgMeths
-Algebra methods. Develop in progress. Project is based on Eigen C++ template library for linear algebra. 
+# NuMeths
+Numeric (maths) methods. Develop in progress. Project is based on Eigen C++ template library for linear algebra. 
 ## Build (algmeths.so)   
 1. Create a directiory build
 ~~~
