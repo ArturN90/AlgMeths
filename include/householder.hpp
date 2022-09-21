@@ -45,7 +45,7 @@ MatrixXf householder(MatrixXf A, int column) {
 
 
 std::tuple<MatrixXf, MatrixXf>qr(MatrixXf A){
-//atrixXf qr(MatrixXf A){
+
 
 MatrixXf H;
 MatrixXf H1;
