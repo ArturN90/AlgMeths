@@ -7,7 +7,7 @@ include_directories(include)
 
 file(GLOB SOURCES "src/examples/*.cpp")
 
-add_library(algmeths SHARED ${SOURCES})
+add_library(numeths SHARED ${SOURCES})
 
-install(TARGETS algmeths DESTINATION /usr/lib/)
+install(TARGETS numeths DESTINATION /usr/lib/)
 
