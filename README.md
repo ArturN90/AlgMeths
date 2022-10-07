@@ -1,6 +1,6 @@
 # NuMeths
 Numeric (maths) methods. Develop in progress. Project is based on Eigen C++ template library for linear algebra. 
-## Build (algmeths.so)   
+## Build (numeths.so)   
 1. Create a directiory build
 ~~~
 mkdir build && cd build/
@@ -12,7 +12,17 @@ cmake ..
 3.  
 ~~~
 make
+~~~  
+## Check the code using boost test function  
+File is in following directory:  
 ~~~
+/src/tests/
+~~~
+To compile, link and run use the following commands:  
+~~~
+g++ -std=c++17 -o test3x3.o test.cpp -lboost_unit_test_framework && ./test3x3.o --log_level=test_suite
+~~~
+
 ## Compilation of the example input file mainapp.cpp  
 File is in following directory:
 ~~~
